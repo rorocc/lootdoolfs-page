@@ -11,6 +11,7 @@ export default defineConfig({
     vueDevTools(),
   ],
   base: '/lootdoolfs-page/',
+  publicPath: process.env.NODE_ENV === "production" ? "/lootdoolfs-page/" : "/",
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
