@@ -10,7 +10,6 @@ export default defineConfig({
     vue(),
     vueDevTools(),
   ],
-  base: '/lootdoolfs-page/',
   publicPath: process.env.NODE_ENV === "production" ? "/lootdoolfs-page/" : "/",
   resolve: {
     alias: {
