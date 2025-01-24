@@ -1,5 +1,5 @@
 <script setup>
-  import Clock from '@/components/Clock.vue';
+  import Clock from '@/components/clock.vue';
 </script>
 
 <template>
